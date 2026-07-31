@@ -1,0 +1,1 @@
+export default function GlassCard({ children, className = "" }) { return <section className={`rounded-3xl border border-white/65 bg-white/55 p-6 shadow-glass backdrop-blur-2xl ${className}`}>{children}</section>; }

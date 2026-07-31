@@ -1,0 +1,1 @@
+export default function Input({ placeholder = "Search", className = "" }) { return <input placeholder={placeholder} className={`w-full rounded-2xl border border-white/60 bg-white/55 px-4 py-3 text-sm outline-none ring-blue-400/30 backdrop-blur-xl placeholder:text-slate-400 focus:ring-4 ${className}`} />; }

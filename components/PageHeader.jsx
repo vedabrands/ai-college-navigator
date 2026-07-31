@@ -1,0 +1,1 @@
+export default function PageHeader({ eyebrow, title, children }){return <div className="mb-8"><p className="text-sm font-black uppercase tracking-[0.25em] text-blue-600">{eyebrow}</p><h1 className="mt-2 text-4xl font-black tracking-tight text-navy md:text-5xl">{title}</h1>{children&&<p className="mt-3 max-w-3xl text-slate-600">{children}</p>}</div>}
